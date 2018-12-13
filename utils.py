@@ -32,14 +32,6 @@ def make_habitacion(data, habitaciones, const_mts):
     )
 
 
-def get_cajas_json(habitaciones):
-    cajasArr = [hab.cajas for hab in habitaciones]
-    cajas_json = json.dumps(
-        [[caja.get_dict() for caja in cajas] for cajas in cajasArr]
-    )
-    return cajas_json
-
-
 def calcular(habitaciones, margen_error, precio, pisos):
     cableado_aereo = sum([hab.cableado_aereo for hab in habitaciones])
     cableado_bajada = sum([hab.cableado_bajada for hab in habitaciones])
