@@ -37,18 +37,18 @@ def make_habitacion(data, habitaciones, const_mts):
     )
 
 
-def parseCajas(data):
+def parse_cajas(data):
     '''
     Convierte el diccionario data en un array de objetos
     tipo Caja
     '''
     cajas = []
     for caja in data:
-        cajas.append(make_caja(caja))
+        cajas.append(hacer_caja(caja))
     return cajas
 
 
-def make_caja(data):
+def hacer_caja(data):
     '''
     Devuelva un objeto tipo Caja con la información que se le pasó
     '''
