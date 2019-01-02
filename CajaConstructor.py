@@ -1,5 +1,3 @@
-from .Caja import Caja
-
 
 class CajaConstructor:
     '''

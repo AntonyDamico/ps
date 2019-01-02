@@ -1,4 +1,3 @@
-from . import utils
 
 habitaciones = [
     {'numero': 0, 'computadoras': 0, 'x': 0, 'y':0, 'alto':4, 'ancho':4, 'habAnterior': 'ninguna'},
@@ -14,9 +13,9 @@ margen_error = 12
 precio_mt_cable = 3
 pisos = 2
 
-pos_caja_p = utils.calcular_pos_caja_principal(habitaciones)
-habitaciones_objs = utils.hacer_habitaciones(habitaciones, pos_caja_p, const_cable_bajada)
-respuestas = utils.calcular_habitaciones(habitaciones_objs, margen_error, precio_mt_cable, pisos)
+pos_caja_p = calcular_pos_caja_principal(habitaciones)
+habitaciones_objs = hacer_habitaciones(habitaciones, pos_caja_p, const_cable_bajada)
+respuestas = calcular_habitaciones(habitaciones_objs, margen_error, precio_mt_cable, pisos)
 
 
 print('cableado_aereo:', respuestas['cableado_aereo'])

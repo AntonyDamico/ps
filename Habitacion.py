@@ -1,6 +1,3 @@
-from .Caja import Caja
-from .CajaConstructor import CajaConstructor
-
 
 class Habitacion:
     def __init__(self, computadoras, x, y, ancho, alto, hab_anterior=None, CONST_MTS=8):
