@@ -1,5 +1,5 @@
-from Caja import Caja
-from CajaConstructor import CajaConstructor
+from .Caja import Caja
+from .CajaConstructor import CajaConstructor
 
 
 class Habitacion:

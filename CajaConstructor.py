@@ -1,4 +1,4 @@
-from Caja import Caja
+from .Caja import Caja
 
 
 class CajaConstructor:
