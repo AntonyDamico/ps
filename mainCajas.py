@@ -1,6 +1,6 @@
 cajas = [
-    {'numero': 0, 'computadoras': 0, 'x': 0, 'y':0, 'alto':4, 'ancho':4, 'habAnterior': 'ninguna'},
-    {'numero': 1, 'computadoras': 3, 'x': 0, 'y':4, 'alto':4, 'ancho':4, 'habAnterior': 0},
+    {'numero': 0, 'computadoras': 0, 'x': 0, 'y':0},
+    {'numero': 1, 'computadoras': 3, 'x': 0, 'y':4},
     {'numero': 2, 'computadoras': 2, 'x': 4, 'y':0, 'alto':4, 'ancho':4, 'habAnterior': 0},
     {'numero': 3, 'computadoras': 2, 'x': 8, 'y':0, 'alto':4, 'ancho':4, 'habAnterior': 2},
     {'numero': 4, 'computadoras': 1, 'x': 12, 'y':0, 'alto':4, 'ancho':4, 'habAnterior': 3},
